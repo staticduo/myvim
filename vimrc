@@ -21,7 +21,7 @@ set showcmd " show mode
 set list " show hidden chars
 " hidden chars representation
 if has('unix')
-  set listchars=tab:^T,eol:¬
+  set listchars=tab:^T,eol:~
 else
   set listchars=tab:^T,eol:$
 endif
